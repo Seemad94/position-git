@@ -36,3 +36,19 @@
 
 `$ git config --global user.name "Mikhai Prokopov"`
 `$ git config --global user.email prokopovmisha94@gmail.com`
+
+## Проверить наличие удаленного репозитория (Github)
+
+`$ git remote show origin`
+
+## Можно удалить origin
+
+`$ git remote rm origin`
+
+## Добавить удалённый репозиторий 
+
+`$ git remote add origin https://github.com/Seemad94/position-git.git`
+
+## Отправляем коммиты на Github
+
+`$ git push origin master`
