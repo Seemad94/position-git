@@ -1,0 +1,56 @@
+.relative {
+    height: 1000px;
+    width: 1000px;
+    background-color: grey;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    /* transform: translate(50px,70px); */
+    margin: 100px;
+} 
+
+.absolute1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+
+    /* top: 50px;
+    left: 30px; */
+    /* right: 30px;
+    bottom: 30px; */
+
+    /* inset: 0;
+    margin: auto; */
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.absolute2 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* inset: 0;
+    margin: auto; */
+    top: 50%;
+    left: 50%;
+     z-index: 2; /* чем больше значение тем выше будет */
+    
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    left: 20px;
+}
