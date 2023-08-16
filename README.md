@@ -68,3 +68,7 @@
 ## Для скачивания обновлений с Github в уже существующий репозиторий 
 
 `$ git pull origin main`
+
+## В случае ошибки push можно использовать флаг --force
+
+`$ git push pages master --force`
