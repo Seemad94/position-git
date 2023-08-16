@@ -52,3 +52,19 @@
 ## Отправляем коммиты на Github
 
 `$ git push origin master`
+
+## При первом скачивании проекта с GIthub делаем его клон
+
+`$ git clone https://github.com/Seemad94/landing.git`
+
+## Переходим в папку repository_name
+
+`$ cd repository_name`
+
+## Открываем папку в VS Code
+
+`$ code .`
+
+## Для скачивания обновлений с Github в уже существующий репозиторий 
+
+`$ git pull origin main`
